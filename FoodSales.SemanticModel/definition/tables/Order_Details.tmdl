@@ -51,10 +51,10 @@ table Order_Details
 
 		annotation SummarizationSetBy = Automatic
 
-	/// description1
+	/// percentage discount
 	column Discount
 		dataType: double
-		formatString: 0.00
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: e6ca9cf4-89aa-429f-9cad-416961fb4e43
 		summarizeBy: sum
 		sourceColumn: Discount
